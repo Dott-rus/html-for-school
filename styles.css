@@ -1,0 +1,72 @@
+@import url(social-media.css);
+@import url(fonts.css);
+@import url(circle.css);
+:root {
+  --text: rgb(231, 226, 251);
+  --background: rgb(14, 5, 35);
+  --primary: rgb(161, 129, 236);
+  --secondary: rgb(155, 24, 147);
+  --accent: rgb(222, 42, 166);
+}
+body {
+  background-color: var(--background);
+  height: 100vh;
+  margin: 0rem;
+  overflow: hidden;
+  padding: 0;
+}
+.all{
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.invert {
+  filter: invert(100%);
+}
+div{
+  color: var(--text);
+}
+#main{
+width: 90%;
+margin: 0px auto;
+border: 3px solid var(--secondary);
+border-radius: 25px;
+}
+#header{
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-bottom: 3px solid;
+box-shadow: 0px 10px 100px -20px var(--text);
+}
+#photo{
+margin: 5%;
+margin-right: 0;
+width: 128px;
+height: 128px;
+float: left;
+border: 3px solid var(--primary);
+border-radius: 99px;
+}
+img{
+width: 128px;
+height: 128px;
+border-radius: 99px;
+}
+center{
+text-align: center;
+}
+#footer{
+height: auto !important;
+display: flex;
+align-items: center;
+justify-content: center;
+clear: both;
+background-color: var(--primary);
+border-radius: 99px;
+}
